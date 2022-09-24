@@ -1,0 +1,188 @@
+*{
+	margin:0;
+	padding:0;
+}
+body #loading{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:#fff 
+	url('../preloader/2.gif')
+	no-repeat center;
+	z-index:999;
+}
+/*main header start*/
+.cont{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+h1{
+	font-family:Georgia;
+}
+span{
+	font-family:Georgia;
+	font-size:18px;
+	color:gray;
+}
+/*search*/
+.searchs{
+	background:#3b7a9d;
+}
+/*navacation*/
+.Navigation{
+	background:#3b7a9d;
+	padding:15px;
+	margin-bottom:25px;
+}
+
+.Navigation li{
+	text-transform:uppercase;
+	list-style:none;
+	display:inline;
+	margin-left:40px;
+	font-family:Georgia;
+	
+	
+}
+.Navigation li a{
+	text-decoration:none;
+	color:#ffffff;
+	
+}
+.Navigation li a:hover{
+	color:gray;
+}
+/*slider*/
+.slider{
+	margin-bottom:25px;
+}
+/*service*/
+.services{
+	font-family:Georgia;
+	font-size:13px;
+	color:#979797;
+}
+h3{
+	font-size:16px;
+	font-family:Georgia;
+}
+.servs{
+	font-size:13px;
+	font-family:Georgia
+}
+.serv1{
+	width:225px; 
+	height:180px;
+	border:4px solid black;
+}
+.servi{
+	margin-bottom:25px;
+}
+/*border*/
+.mon{
+	border:1px solid gray;
+	margin-bottom:20px;
+}
+h4{
+	font-family:Georgia;
+	font-size:14px;
+	color:#979797;
+}
+.bord{
+	border:1px solid gray;
+	margin-bottom:10px;
+}
+h3{
+	color:#3a799d;
+}
+h2{
+	font-family:Georgia;
+	font-size:22px;
+}
+/*<!--  overfooder-->*/
+.pro{
+	display:inline-block;
+}
+h5{
+	display:;
+	font-family:Georgia;
+	font-weight:bold;
+	font-size:13px;
+}
+.spt{
+	font-family:Georgia;
+	font-size:13px;
+	display:inline-block;
+}
+.ovfoder{
+	margin-bottom:20px;
+}
+/*fooder*/
+.ft{
+	margin-left:25px;
+	font-size:45px;
+	
+}
+
+.foderd{
+	background:#d6d6d6;
+	padding-top:10px;
+}
+.cnt{
+	font-family:Georgia;
+	color:#504e4e;
+}
+/*miltup*/
+.mixltup{
+	margin-bottom:20px;
+}
+.mixltup-button{
+	margin-bottom:20px;
+}
+
+/*popup*/
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+/*
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+*/
